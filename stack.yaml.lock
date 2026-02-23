@@ -3,10 +3,38 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/topics/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: dap-0.3.2.0@sha256:6c43b7f44f52cb6f9b47cc08a0ff6a563a4c160f92f11ed79bddbba05b20b382,2324
+    pantry-tree:
+      sha256: b3453770de6920c09fa813535927404df0cf009b532d3005d92521d697352f58
+      size: 724
+  original:
+    hackage: dap-0.3.2.0
+- completed:
+    hackage: haskell-debugger-view-0.2.0.0@sha256:0c46825ea9966ecc0c693bb2745aeef0b747781ea2b296009d0a5b96ec5aad80,1840
+    pantry-tree:
+      sha256: 6acdf6559a514b5a6d1ae10dc2b593679dd5f9936841c836f1a60e40aa5d8e4c
+      size: 414
+  original:
+    hackage: haskell-debugger-view-0.2.0.0
+- completed:
+    hackage: implicit-hie-0.1.4.0@sha256:42a8bdc36713d98711c59b62fac238d81f6ce3ef7912752f38d456182260a5a3,3122
+    pantry-tree:
+      sha256: 0219d06c980212fb4fa57bc2bf01b7dee4eb22a7e1c1e0f76e4cac4ef191e30f
+      size: 844
+  original:
+    hackage: implicit-hie-0.1.4.0
+- completed:
+    hackage: hie-bios-0.18.0@sha256:4ea8019cc951e991e50357cac0f2fcf692d080582b451c53a9df1ccfdc008081,13835
+    pantry-tree:
+      sha256: ee92cca4adae9898444629217c7a467e98ebbf69238afd2e24952ce83a898545
+      size: 14684
+  original:
+    hackage: hie-bios-0.18.0
 snapshots:
 - completed:
-    sha256: 2763632e4c4094ce12f5ae12b22f524cdc6453b6b19007ff164a37fd9d2ea829
-    size: 683819
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/23/17.yaml
-  original: lts-23.17
+    sha256: 4cc26af30099ef65ad7e50b4a204b8d9f0653908330d1106b4fd29cc710ae3a7
+    size: 723455
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2026/2/23.yaml
+  original: nightly-2026-02-23

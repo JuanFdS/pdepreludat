@@ -18,8 +18,10 @@
 #
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2018-01-01.yaml
-resolver: lts-23.17
-
+resolver: nightly-2026-02-23
+compiler: ghc-9.14
+install-ghc: false
+system-ghc: true
 # User packages to be built.
 # Various formats can be used as shown in the example below.
 #
@@ -39,7 +41,14 @@ packages:
 # Dependency packages to be pulled from upstream that are not in the resolver
 # using the same syntax as the packages field.
 # (e.g., acme-missiles-0.3)
-# extra-deps: []
+extra-deps:
+  - dap-0.3.2.0
+  - haskell-debugger-view-0.2.0.0
+  - implicit-hie-0.1.4.0
+  - hie-bios-0.18.0
+
+allow-newer: true
+  
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
