@@ -32,6 +32,17 @@ packages:
       size: 14684
   original:
     hackage: hie-bios-0.18.0
+- completed:
+    name: haskell-debugger
+    pantry-tree:
+      sha256: 7a3bea5ddb6407c9c895484670895246336606f5454ddad4726bf5f040ebafb3
+      size: 18491
+    sha256: 327cae7ddc05040e8fbf43dac31873fd73cbc16e80ce7c94c786219e68f23548
+    size: 200519
+    url: https://github.com/well-typed/haskell-debugger/archive/master.tar.gz
+    version: 0.11.0.0
+  original:
+    url: https://github.com/well-typed/haskell-debugger/archive/master.tar.gz
 snapshots:
 - completed:
     sha256: 4cc26af30099ef65ad7e50b4a204b8d9f0653908330d1106b4fd29cc710ae3a7

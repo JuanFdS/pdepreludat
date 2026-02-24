@@ -46,6 +46,8 @@ extra-deps:
   - haskell-debugger-view-0.2.0.0
   - implicit-hie-0.1.4.0
   - hie-bios-0.18.0
+  - github: well-typed/haskell-debugger
+    commit: master
 
 allow-newer: true
   
